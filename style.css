@@ -30,23 +30,33 @@ html,body{
 }
 
 .top-left{
-    background-color: #9D53F2;
+    background-color: #090909;
+    padding: 10px;
     grid-area: top-left;
     border-radius: 35px;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .top-left img{
     width: 100%;
     height: 100%;
     
-    /* border-radius: 35px; */
+    border-radius: 25px;
 }
 
 .ftr-left{
-    background-color: #53c8f2;
+    background-color: #090909;
     grid-area: ftr-left;
     border-radius: 35px;
+    border: 2px solid #D7F259;
+}
+
+.ftr-left h1{
+    text-transform: uppercase;
+    font-size: 105px;
+    font-weight: 100;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
 }
 
 .top-cnt1{
@@ -64,32 +74,32 @@ html,body{
     /* border-radius: 35px; */
 }
 .mid-cnt1{
-    background-color: #31b079;
+    background-color: #090909;
     grid-area: mid-cnt1;
     border-radius: 35px;
 }
 .mid-cnt2{
-    background-color: #b14175;
+    background-color: #090909;
     grid-area: mid-cnt2;
     border-radius: 35px;
 }
 .ftr-cnt{
-    background-color: #1349eb;
+    background-color: #D7F259;
     grid-area: ftr-cnt;
     border-radius: 35px;
 }
 .top-cnt2{
-    background-color: #b4c248;
+    background-color: #161618;
     grid-area: top-cnt2;
     border-radius: 35px;
 }
 .ftr-rt{
-    background-color: #dc9d3a;
+    background-color: #FEFEFE;
     grid-area: ftr-rt;
     border-radius: 35px;
 }
 .top-rt{
-    background-color: #28bf44;
+    background-color: #72C7E4;
     grid-area:top-rt ;
     border-radius: 35px;
 }
